@@ -6,3 +6,12 @@ for (let i=0; i<musicians.length; i++){
   return array;
 }
 
+function johnLennonFacts(facts){
+  let Beatles = [];
+  let i = 0;
+  
+  while(i < facts.length){
+    Beatles.push(facts[i] + "!!!");
+  }
+  return Beatles;
+}
